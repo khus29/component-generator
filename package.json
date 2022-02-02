@@ -1,6 +1,6 @@
 {
   "name": "@xt-pagesource/generate-plop",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Generate new components fast and consistently.",
   "main": "index.js",
   "type": "module",
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/pagesource/component-generator#readme",
   "dependencies": {
+    "@changesets/cli": "^2.20.0",
     "minimist": "^1.2.5",
     "plop": "^3.0.5"
   }
